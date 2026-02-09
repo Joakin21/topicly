@@ -86,14 +86,7 @@ export function Flashcard3D({
 
             <div style={styles.smallLink}>See other example</div>
 
-            <div style={styles.ctaRow}>
-              <button className="btn" style={styles.ctaBtn}>
-                ✍️ Say it
-              </button>
-              <button className="btn btnPrimary" style={styles.ctaBtn}>
-                🎯 Practice
-              </button>
-            </div>
+
           </div>
 
           {/* ⬇️ SOLO FLIP (sin prev / next) */}
@@ -221,19 +214,4 @@ const styles: Record<string, React.CSSProperties> = {
     borderRadius: 12,
   },
 
-  ctaRow: {
-    display: "flex",
-    gap: 10,
-    justifyContent: "center",
-    alignItems: "center",
-    marginTop: 6,
-    flexWrap: "wrap",
-    width: "100%",
-  },
-  ctaBtn: {
-    borderRadius: 14,
-    padding: "12px 16px",
-    minWidth: 140,
-    width: "min(220px, 46%)",
-  },
 };
