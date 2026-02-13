@@ -31,7 +31,7 @@ def list_topics(db: Session = Depends(get_db)):
 def list_entries(
     topic_id: Optional[int] = Query(default=None),
     q: Optional[str] = Query(default=None),
-    limit: int = Query(default=50, le=200),
+    limit: int = Query(default=200, le=2000),
     db: Session = Depends(get_db),
 ):
     stmt = select(Entry)
@@ -45,7 +45,9 @@ def list_entries(
     if q:
         like = f"%{q.lower()}%"
         stmt = stmt.where(
-            (Entry.headword.ilike(like)) | (Entry.meaning_es.ilike(like))
+            (Entry.headword.ilike(like))
+            | (Entry.meaning_en.ilike(like))
+            | (Entry.meaning_es.ilike(like))
         )
 
     stmt = stmt.order_by(Entry.id).limit(limit)
@@ -69,7 +71,11 @@ def search_entries(
         )
         .join(TopicEntry, TopicEntry.entry_id == Entry.id)
         .join(Topic, Topic.id == TopicEntry.topic_id)
-        .where((Entry.headword.ilike(like)) | (Entry.meaning_es.ilike(like)))
+        .where(
+            (Entry.headword.ilike(like))
+            | (Entry.meaning_en.ilike(like))
+            | (Entry.meaning_es.ilike(like))
+        )
         .group_by(Entry.id)
         .order_by(
             case((func.lower(Entry.headword) == func.lower(q_norm), 0), else_=1),
@@ -103,6 +109,7 @@ def search_entries(
                 "id": int(entry.id),
                 "kind": entry.kind,
                 "headword": entry.headword,
+                "meaning_en": entry.meaning_en,
                 "meaning_es": entry.meaning_es,
                 "notes": entry.notes,
                 "level": entry.level,
@@ -131,6 +138,7 @@ def get_entry(entry_id: int, db: Session = Depends(get_db)):
         "id": int(entry.id),
         "kind": entry.kind,
         "headword": entry.headword,
+        "meaning_en": entry.meaning_en,
         "meaning_es": entry.meaning_es,
         "notes": entry.notes,
         "level": entry.level,

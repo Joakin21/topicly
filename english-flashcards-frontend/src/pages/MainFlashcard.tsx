@@ -7,6 +7,7 @@ type EntryOut = {
   id: number;
   kind: "word" | "phrase";
   headword: string;
+  meaning_en: string;
   meaning_es: string;
   notes?: string | null;
   level?: string | null;
@@ -24,7 +25,9 @@ type EntryDetail = EntryOut & {
 };
 
 type CardView = {
+  id: number;
   headword: string;
+  meaningEn: string;
   meaningEs: string;
   exampleFront: string;
   exampleBack: string;
@@ -178,7 +181,7 @@ export function MainFlashcard() {
         setIsFlipped(false);
 
         const list = await apiGet<EntryOut[]>(
-          `/entries?topic_id=${selectedTopicId}&limit=200`
+          `/entries?topic_id=${selectedTopicId}&limit=2000`
         );
         setEntries(list);
         setCurrentIndex(0);
@@ -352,7 +355,9 @@ export function MainFlashcard() {
     const ex2 = sorted[1]?.text_en ?? sorted[0]?.text_en ?? "";
 
     return {
+      id: entryDetail.id,
       headword: entryDetail.headword,
+      meaningEn: entryDetail.meaning_en,
       meaningEs: entryDetail.meaning_es,
       exampleFront: ex1 ? `"${ex1}"` : "",
       exampleBack: ex2 ? `"${ex2}"` : "",
@@ -483,8 +488,9 @@ export function MainFlashcard() {
         <>
           <Flashcard3D
             card={{
-              id: "api",
+              id: String(cardView.id),
               headword: cardView.headword,
+              meaningEn: cardView.meaningEn,
               meaningEs: cardView.meaningEs,
               exampleFront: cardView.exampleFront,
               exampleBack: cardView.exampleBack,

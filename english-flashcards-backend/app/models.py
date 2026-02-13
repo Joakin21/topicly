@@ -8,6 +8,7 @@ class Entry(Base):
     id = Column(BigInteger, primary_key=True)
     kind = Column(Text, nullable=False)
     headword = Column(Text, nullable=False)
+    meaning_en = Column(Text, nullable=False)
     meaning_es = Column(Text, nullable=False)
     notes = Column(Text)
     level = Column(Text)

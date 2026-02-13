@@ -20,6 +20,7 @@ class EntryOut(BaseModel):
     id: int
     kind: str
     headword: str
+    meaning_en: str
     meaning_es: str
     notes: Optional[str] = None
     level: Optional[str] = None
