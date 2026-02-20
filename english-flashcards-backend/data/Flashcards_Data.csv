@@ -1,0 +1,661 @@
+﻿Topic,Entry,Meaning_En,Meaning_Es,Example_Sentence
+Food & Restaurants,menu,A list of food and drinks a place offers,Menú (lista de comidas y bebidas),I ordered the menu at the restaurant.
+Food & Restaurants,order,To ask for food or drinks to be served,Pedir / ordenar (comida o bebida),I ordered the order at the restaurant.
+Food & Restaurants,bill,"A statement of money you owe (electricity, phone, etc.)",Factura / cuenta,"Can you bring me the bill, please?"
+Food & Restaurants,waiter,A man who serves food and drinks in a restaurant,Mesero / camarero,We enjoyed the waiter during dinner.
+Food & Restaurants,waitress,A woman who serves food and drinks in a restaurant,Mesera / camarera,The waitress was very delicious.
+Food & Restaurants,reservation,A booking made in advance,Reserva,The reservation on the menu looks great.
+Food & Restaurants,tip,Extra money you give for good service,Propina,The tip on the menu looks great.
+Food & Restaurants,dish,A specific prepared food item or meal,Platillo / plato,I ordered the dish at the restaurant.
+Food & Restaurants,meal,Food eaten at a particular time (breakfast/lunch/dinner),Comida (desayuno/almuerzo/cena),I ordered the meal at the restaurant.
+Food & Restaurants,breakfast,"The first meal of the day, usually in the morning",Desayuno,The breakfast was very delicious.
+Food & Restaurants,lunch,A meal eaten around midday,Almuerzo / comida,The lunch was very delicious.
+Food & Restaurants,dinner,The main meal in the evening,Cena,The dinner on the menu looks great.
+Food & Restaurants,drink,To swallow a liquid,Beber,The drink was very delicious.
+Food & Restaurants,water,A clear liquid you drink; H2O,Agua,I ordered the water at the restaurant.
+Food & Restaurants,coffee,A hot drink made from roasted coffee beans,Café,I ordered the coffee at the restaurant.
+Food & Restaurants,tea,A hot drink made by soaking tea leaves in water,Té,We enjoyed the tea during dinner.
+Food & Restaurants,juice,A drink made from the liquid of fruit or vegetables,Jugo / zumo,I ordered the juice at the restaurant.
+Food & Restaurants,bread,Baked food made from flour and water,Pan,"Can you bring me the bread, please?"
+Food & Restaurants,rice,"Small grains used as food, often boiled or steamed",Arroz,The rice on the menu looks great.
+Food & Restaurants,chicken,Meat from a chicken,Pollo (carne),We enjoyed the chicken during dinner.
+Food & Restaurants,beef,Meat from a cow,Carne de res / vacuno,The beef on the menu looks great.
+Food & Restaurants,fish,Meat from fish; seafood commonly eaten as food,Pescado,We enjoyed the fish during dinner.
+Food & Restaurants,vegetables,Plants or parts of plants eaten as food,Verduras / vegetales,The vegetables was very delicious.
+Food & Restaurants,fruit,Sweet plant food like apples or bananas,Fruta,"Can you bring me the fruit, please?"
+Food & Restaurants,cook,To prepare food using heat,Cocinar,The cook on the menu looks great.
+Food & Restaurants,bake,To cook food in an oven with dry heat,Hornear,The bake was very delicious.
+Food & Restaurants,fry,To cook food in hot oil,Freír,The fry on the menu looks great.
+Food & Restaurants,grill,"To cook over direct heat, often on a grill",Asar a la parrilla,I ordered the grill at the restaurant.
+Food & Restaurants,boil,To cook in water that is bubbling hot,Hervir,"Can you bring me the boil, please?"
+Food & Restaurants,roast,"To cook in the oven, usually uncovered",Asar / rostizar,The roast on the menu looks great.
+Food & Restaurants,steam,To cook using steam (hot vapor),Cocinar al vapor,The steam on the menu looks great.
+Food & Restaurants,ingredient,One of the foods used to make a dish,Ingrediente,The ingredient on the menu looks great.
+Food & Restaurants,recipe,Instructions for making a dish,Receta,The recipe on the menu looks great.
+Food & Restaurants,kitchen,Room where food is prepared and cooked,Cocina,The kitchen was very delicious.
+Food & Restaurants,chef,"A professional cook, especially in a restaurant",Chef / cocinero profesional,The chef on the menu looks great.
+Food & Restaurants,delicious,Very tasty; tastes very good,Delicioso,I ordered the delicious at the restaurant.
+Food & Restaurants,tasty,Having a pleasant flavor,Sabroso / rico,The tasty was very delicious.
+Food & Restaurants,spicy,Having strong hot flavor from spices,Picante,"Can you bring me the spicy, please?"
+Food & Restaurants,sweet,Having a sugary taste,Dulce,The sweet was very delicious.
+Food & Restaurants,salty,Tasting of salt; containing a lot of salt,Salado,The salty on the menu looks great.
+Food & Restaurants,sour,Having a sharp acidic taste (like lemon),Ácido,The sour on the menu looks great.
+Food & Restaurants,bitter,"Having a sharp, unpleasant taste (like dark coffee)",Amargo,The bitter was very delicious.
+Food & Restaurants,hungry,Wanting or needing to eat,Hambriento / con hambre,"Can you bring me the hungry, please?"
+Food & Restaurants,full,Not hungry because you have eaten enough,Lleno / satisfecho,The full on the menu looks great.
+Food & Restaurants,healthy,Good for your health; not harmful,Saludable,The healthy was very delicious.
+Food & Restaurants,flavor,The specific taste of a food or drink,Sabor,The flavor was very delicious.
+Food & Restaurants,sauce,A liquid or thick condiment added to food for taste,Salsa,I ordered the sauce at the restaurant.
+Food & Restaurants,salt,A white mineral used to season food,Sal,The salt was very delicious.
+Food & Restaurants,sugar,A sweet substance used in food and drinks,Azúcar,"Can you bring me the sugar, please?"
+Food & Restaurants,dessert,A sweet course eaten at the end of a meal,Postre,I ordered the dessert at the restaurant.
+Food & Restaurants,appetizer,Small starter dish before the main course,Entrada / aperitivo,"Can you bring me the appetizer, please?"
+Food & Restaurants,main course,The largest or most important dish of a meal,Plato principal,The main course was very delicious.
+Food & Restaurants,buffet,A meal where people serve themselves from a variety of dishes,Bufé / buffet,"Can you bring me the buffet, please?"
+Food & Restaurants,grilled,Cooked on a grill over direct heat,A la parrilla / asado,"Can you bring me the grilled, please?"
+Food & Restaurants,fried,Cooked in hot oil,Frito,I ordered the fried at the restaurant.
+Food & Restaurants,fresh,Recently made or not old; not frozen or stale,Fresco / recién hecho,We enjoyed the fresh during dinner.
+Food & Restaurants,rare,Cooked a short time; red inside (for meat),Poco cocido,We enjoyed the rare during dinner.
+Food & Restaurants,medium,Middle size,Mediano(a),We enjoyed the medium during dinner.
+Food & Restaurants,well-done,Fully cooked all the way through,Bien cocido,The well-done was very delicious.
+Food & Restaurants,takeout,Food prepared in a restaurant to eat elsewhere,Para llevar,The takeout was very delicious.
+Food & Restaurants,delivery,Bringing goods to your home,Entrega,I ordered the delivery at the restaurant.
+Food & Restaurants,table,Furniture you eat at in a restaurant or home,Mesa,We enjoyed the table during dinner.
+Food & Restaurants,chair,"A seat with a back, for one person",Silla,The chair was very delicious.
+Food & Restaurants,plate,A flat dish used to serve food,Plato (vajilla),The plate on the menu looks great.
+Food & Restaurants,fork,Utensil with prongs used for eating,Tenedor,The fork on the menu looks great.
+Food & Restaurants,knife,Utensil with a blade used for cutting food,Cuchillo,"Can you bring me the knife, please?"
+Food & Restaurants,spoon,Utensil with a round bowl used for eating or stirring,Cuchara,"Can you bring me the spoon, please?"
+Food & Restaurants,napkin,Paper or cloth used to wipe your mouth/hands while eating,Servilleta,"Can you bring me the napkin, please?"
+Food & Restaurants,receipt,Proof of payment,Recibo / comprobante,The receipt on the menu looks great.
+Food & Restaurants,customer,A person who buys goods or services,Cliente,We enjoyed the customer during dinner.
+Food & Restaurants,service,The help/attention provided to customers,Servicio / atención,We enjoyed the service during dinner.
+Food & Restaurants,restaurant,A place where you pay to eat meals,Restaurante,I ordered the restaurant at the restaurant.
+Food & Restaurants,café,A small place serving coffee and light meals,Cafetería,The café on the menu looks great.
+Food & Restaurants,fast food,"Quick, inexpensive food served fast (burgers, fries, etc.)",Comida rápida,"Can you bring me the fast food, please?"
+Food & Restaurants,host,Person who welcomes and seats guests in a restaurant,Anfitrión / host,I ordered the host at the restaurant.
+Food & Restaurants,reservation desk,The place where bookings and seating are managed,Mostrador de reservas,The reservation desk was very delicious.
+Food & Restaurants,special,A dish or offer recommended for that day,Especial (del día),I ordered the special at the restaurant.
+Food & Restaurants,combo,A set meal sold together for one price,Combo / paquete,The combo was very delicious.
+Food & Restaurants,beverage,A drink of any kind,Bebida,"Can you bring me the beverage, please?"
+Food & Restaurants,refill,"To fill again, especially a drink",Rellenar / recargar (bebida),We enjoyed the refill during dinner.
+Travel & Transportation,airport,A place where airplanes take off and land,Aeropuerto,The airport was crowded today.
+Travel & Transportation,flight,A journey by airplane,Vuelo,We booked the flight in advance.
+Travel & Transportation,ticket,A document that lets you travel or enter a place,Boleto / billete,My ticket was scheduled for early morning.
+Travel & Transportation,passport,An official document for international travel,Pasaporte,The passport was crowded today.
+Travel & Transportation,visa,Permission document to enter a country,Visa / visado,The visa was crowded today.
+Travel & Transportation,luggage,Bags and suitcases you travel with,Equipaje,I packed my luggage before the trip.
+Travel & Transportation,suitcase,A case with a handle used for carrying clothes when traveling,Maleta,We booked the suitcase in advance.
+Travel & Transportation,boarding pass,A document used to board a plane,Pase de abordar / tarjeta de embarque,The boarding pass was crowded today.
+Travel & Transportation,gate,The numbered area where you board a plane,Puerta de embarque,We waited at the gate for an hour.
+Travel & Transportation,arrival,The act/time of reaching a place,Llegada,My arrival was scheduled for early morning.
+Travel & Transportation,departure,The act/time of leaving a place,Salida,We waited at the departure for an hour.
+Travel & Transportation,hotel,A place where travelers pay to stay overnight,Hotel,The hotel was crowded today.
+Travel & Transportation,hostel,"A low-cost place to stay, often with shared rooms",Hostal / albergue,We waited at the hostel for an hour.
+Travel & Transportation,reservation,A booking made in advance,Reserva,We booked the reservation in advance.
+Travel & Transportation,check-in,The process of registering when you arrive (hotel/flight),Registro / check-in,We booked the check-in in advance.
+Travel & Transportation,check-out,The process of leaving and paying before you depart (hotel),Salida / check-out,I packed my check-out before the trip.
+Travel & Transportation,taxi,A car service you pay to take you somewhere,Taxi,I packed my taxi before the trip.
+Travel & Transportation,bus,A large vehicle that carries many passengers,Autobús,I packed my bus before the trip.
+Travel & Transportation,train,A vehicle that runs on rails,Tren,The train was crowded today.
+Travel & Transportation,subway,Underground city train system,Metro,We booked the subway in advance.
+Travel & Transportation,map,A drawing that shows places and directions,Mapa,We waited at the map for an hour.
+Travel & Transportation,direction,Information on how to get somewhere,Dirección / indicaciones,We waited at the direction for an hour.
+Travel & Transportation,trip,"A journey for a short period, often for fun or work",Viaje,We waited at the trip for an hour.
+Travel & Transportation,journey,"Travel from one place to another, often longer",Trayecto / viaje,I packed my journey before the trip.
+Travel & Transportation,tour,"A planned visit to places, often with a guide",Tour / recorrido,The tour was crowded today.
+Travel & Transportation,guide,A person who shows tourists around and explains places,Guía,I packed my guide before the trip.
+Travel & Transportation,destination,The place you are going to,Destino,We booked the destination in advance.
+Travel & Transportation,route,A way or path from one place to another,Ruta,We waited at the route for an hour.
+Travel & Transportation,traffic,Cars and vehicles on roads,Tráfico,My traffic was scheduled for early morning.
+Travel & Transportation,delay,When something happens later than planned,Retraso / demora,We waited at the delay for an hour.
+Travel & Transportation,cancel,"To stop something from happening (a flight, booking, etc.)",Cancelar,My cancel was scheduled for early morning.
+Travel & Transportation,schedule,Planned working times,Horario,I packed my schedule before the trip.
+Travel & Transportation,platform,The area next to train tracks where you wait,Andén,We booked the platform in advance.
+Travel & Transportation,seat,A place to sit on a bus/plane/train,Asiento,I packed my seat before the trip.
+Travel & Transportation,window seat,A seat next to the window,Asiento de ventana,We waited at the window seat for an hour.
+Travel & Transportation,aisle,The walkway between rows of seats,Pasillo,The aisle was crowded today.
+Travel & Transportation,customs,Border control for goods entering a country,Aduanas,The customs was crowded today.
+Travel & Transportation,security,Protection from threats and unauthorized access,Seguridad,My security was scheduled for early morning.
+Travel & Transportation,terminal,A building/area at an airport for passengers,Terminal,We booked the terminal in advance.
+Travel & Transportation,runway,The strip where planes take off and land,Pista (de aterrizaje/despegue),My runway was scheduled for early morning.
+Travel & Transportation,pilot,Person who flies an airplane,Piloto,We waited at the pilot for an hour.
+Travel & Transportation,crew,People who work on a plane or ship,Tripulación,The crew was crowded today.
+Travel & Transportation,travel insurance,Insurance that covers problems while traveling,Seguro de viaje,My travel insurance was scheduled for early morning.
+Travel & Transportation,rent,Money paid regularly to live in a home you don't own,Renta / alquiler,We booked the rent in advance.
+Travel & Transportation,car rental,A service that lets you rent a car,Alquiler de autos,We waited at the car rental for an hour.
+Travel & Transportation,road,A path for vehicles to travel,Carretera / camino,My road was scheduled for early morning.
+Travel & Transportation,highway,A main road for fast traffic,Autopista,We waited at the highway for an hour.
+Travel & Transportation,bridge,A structure that goes over water or roads,Puente,We booked the bridge in advance.
+Travel & Transportation,crossing,"A place to cross, especially a border or street",Cruce,We waited at the crossing for an hour.
+Travel & Transportation,border,The line between two countries,Frontera,I packed my border before the trip.
+Travel & Transportation,currency exchange,Service where you change one currency for another,Cambio de divisas,The currency exchange was crowded today.
+Travel & Transportation,tourist,A person who visits places for pleasure,Turista,We waited at the tourist for an hour.
+Travel & Transportation,landmark,A famous place that is easy to recognize,Lugar emblemático,We waited at the landmark for an hour.
+Travel & Transportation,museum,A building where art or history is shown,Museo,My museum was scheduled for early morning.
+Travel & Transportation,beach,Sandy area by the sea or a lake,Playa,I packed my beach before the trip.
+Travel & Transportation,mountain,A very high natural hill,Montaña,I packed my mountain before the trip.
+Travel & Transportation,city center,The central part of a city (downtown),Centro de la ciudad,I packed my city center before the trip.
+Travel & Transportation,backpack,A bag you carry on your back,Mochila,We booked the backpack in advance.
+Travel & Transportation,package tour,"A trip sold with transport, hotel, and activities together",Paquete turístico,The package tour was crowded today.
+Travel & Transportation,cruise,A trip on a large ship for pleasure,Crucero,My cruise was scheduled for early morning.
+Travel & Transportation,ferry,A boat that carries people/vehicles across water,Ferry / transbordador,We booked the ferry in advance.
+Travel & Transportation,harbor,A sheltered place for ships to stay,Puerto / bahía,We waited at the harbor for an hour.
+Travel & Transportation,port,A place where ships load and unload,Puerto,We booked the port in advance.
+Travel & Transportation,travel agency,A business that helps you plan and book trips,Agencia de viajes,We booked the travel agency in advance.
+Travel & Transportation,reservation number,The code that identifies your booking,Número de reserva,We waited at the reservation number for an hour.
+Travel & Transportation,itinerary,"A plan of your travel dates, times, and places",Itinerario,My itinerary was scheduled for early morning.
+Travel & Transportation,transfer,Moving money from one account to another,Transferencia,My transfer was scheduled for early morning.
+Travel & Transportation,local transport,Transportation used within a city or area,Transporte local,The local transport was crowded today.
+Travel & Transportation,metro card,A card used to pay for subway/metro rides,Tarjeta del metro,My metro card was scheduled for early morning.
+Travel & Transportation,one-way,Going in one direction only (not return),Solo ida,My one-way was scheduled for early morning.
+Small Talk,hello,A common greeting,Hola,She mentioned hello when we met.
+Small Talk,hi,An informal greeting,Hola (informal),She mentioned hi when we met.
+Small Talk,good morning,Greeting used in the morning,Buenos días,She mentioned good morning when we met.
+Small Talk,good afternoon,Greeting used in the afternoon,Buenas tardes,good afternoon is a common topic in small talk.
+Small Talk,good evening,Greeting used in the evening,Buenas noches (al saludar),We talked about good evening during the conversation.
+Small Talk,how are you,A question asking about someone's well-being,¿Cómo estás?,I enjoy discussing how are you with friends.
+Small Talk,nice to meet you,Polite phrase when meeting someone for the first time,Mucho gusto / encantado(a),He asked me about nice to meet you.
+Small Talk,weather,The condition of the sky and temperature outside,Clima,He asked me about weather.
+Small Talk,weekend,Saturday and Sunday,Fin de semana,I enjoy discussing weekend with friends.
+Small Talk,hobby,An activity you do for fun in your free time,Pasatiempo / hobby,She mentioned hobby when we met.
+Small Talk,friend,A person you like and trust,Amigo(a),friend is a common topic in small talk.
+Small Talk,family,"Your relatives (parents, siblings, etc.)",Familia,family is a common topic in small talk.
+Small Talk,work,To do your job or tasks,Trabajar,work is a common topic in small talk.
+Small Talk,busy,Having a lot to do; not free,Ocupado(a),We talked about busy during the conversation.
+Small Talk,free,Available; not busy,Libre / disponible,He asked me about free.
+Small Talk,movie,A film,Película,We talked about movie during the conversation.
+Small Talk,music,Sounds arranged in a pleasing way,Música,He asked me about music.
+Small Talk,sport,"A game or physical activity (soccer, tennis, etc.)",Deporte,She mentioned sport when we met.
+Small Talk,travel,"To go from one place to another, often for a trip",Viajar,travel is a common topic in small talk.
+Small Talk,interesting,Keeping your attention; not boring,Interesante,interesting is a common topic in small talk.
+Small Talk,boring,Not interesting; dull,Aburrido(a),boring is a common topic in small talk.
+Small Talk,fun,Enjoyable and entertaining,Divertido(a),He asked me about fun.
+Small Talk,exciting,Very interesting; makes you feel thrilled,Emocionante,She mentioned exciting when we met.
+Small Talk,news,Information about recent events,Noticias,We talked about news during the conversation.
+Small Talk,plan,To decide what you will do in the future,Planear,He asked me about plan.
+Small Talk,party,A social event where people meet and have fun,Fiesta,party is a common topic in small talk.
+Small Talk,birthday,The day you were born; celebration day each year,Cumpleaños,birthday is a common topic in small talk.
+Small Talk,holiday,A day of celebration or a day off work/school,Día festivo / vacaciones,We talked about holiday during the conversation.
+Small Talk,favorite,Liked the most,Favorito(a),She mentioned favorite when we met.
+Small Talk,coffee break,A short rest to drink coffee or relax,Pausa para café,We talked about coffee break during the conversation.
+Small Talk,chat,An informal conversation,Charla / plática,chat is a common topic in small talk.
+Small Talk,conversation,Talk between two or more people,Conversación,She mentioned conversation when we met.
+Small Talk,smile,A facial expression showing happiness or friendliness,Sonrisa / sonreír,smile is a common topic in small talk.
+Small Talk,laugh,To make the sound/action of amusement,Reír,laugh is a common topic in small talk.
+Small Talk,opinion,What you think about something,Opinión,We talked about opinion during the conversation.
+Small Talk,agree,To have the same opinion,Estar de acuerdo,We talked about agree during the conversation.
+Small Talk,disagree,To have a different opinion,No estar de acuerdo,We talked about disagree during the conversation.
+Small Talk,maybe,Possibly; not certain,Quizás / tal vez,I enjoy discussing maybe with friends.
+Small Talk,sure,Certain; confident,Seguro(a),sure is a common topic in small talk.
+Small Talk,of course,Certainly; yes,Por supuesto,He asked me about of course.
+Small Talk,really,Used to emphasize or show surprise; truly,¿En serio? / realmente,I enjoy discussing really with friends.
+Small Talk,actually,In fact; used to correct or clarify,En realidad / de hecho,He asked me about actually.
+Small Talk,honestly,In a truthful way,Honestamente,She mentioned honestly when we met.
+Small Talk,guess,To think something is true without being sure,Suponer / adivinar,He asked me about guess.
+Small Talk,probably,Most likely,Probablemente,He asked me about probably.
+Small Talk,sometimes,On some occasions; not always,A veces,He asked me about sometimes.
+Small Talk,usually,Most of the time,Usualmente / normalmente,He asked me about usually.
+Small Talk,often,Many times; frequently,A menudo / frecuentemente,We talked about often during the conversation.
+Small Talk,rarely,Not often,Rara vez,He asked me about rarely.
+Small Talk,always,At all times,Siempre,always is a common topic in small talk.
+Small Talk,never,At no time,Nunca,We talked about never during the conversation.
+Small Talk,today,On this day,Hoy,He asked me about today.
+Small Talk,tomorrow,The day after today,Mañana,tomorrow is a common topic in small talk.
+Small Talk,yesterday,The day before today,Ayer,We talked about yesterday during the conversation.
+Small Talk,later,After some time,Más tarde,later is a common topic in small talk.
+Small Talk,soon,In a short time,Pronto,I enjoy discussing soon with friends.
+Small Talk,right now,At this moment,Ahora mismo,She mentioned right now when we met.
+Small Talk,in general,Generally; overall,En general,I enjoy discussing in general with friends.
+Small Talk,by the way,Used to change the topic or add something,Por cierto,He asked me about by the way.
+Small Talk,anyway,Used to continue or change direction in conversation,De todos modos / en fin,We talked about anyway during the conversation.
+Jobs & Interviews,job,Paid work you do for an employer,Trabajo / empleo,The company values teamwork in every job.
+Jobs & Interviews,career,Your long-term professional life and progress,Carrera profesional,The career required strong communication skills.
+Jobs & Interviews,interview,A formal meeting to evaluate you for a job,Entrevista,We discussed the interview during the interview.
+Jobs & Interviews,resume,Document summarizing your education and work experience,Currículum / CV,I applied for a new resume last week.
+Jobs & Interviews,cover letter,Letter sent with a resume to explain why you fit the job,Carta de presentación,The cover letter required strong communication skills.
+Jobs & Interviews,experience,Knowledge or skill gained from doing something,Experiencia,I applied for a new experience last week.
+Jobs & Interviews,salary,Regular pay from a job,Salario,She received a promotion at her salary.
+Jobs & Interviews,manager,Person responsible for a team or department,Gerente / jefe(a),The company values teamwork in every manager.
+Jobs & Interviews,company,A business organization,Empresa / compañía,The company required strong communication skills.
+Jobs & Interviews,employee,A person who works for a company,Empleado(a),The company values teamwork in every employee.
+Jobs & Interviews,employer,A person or company that hires workers,Empleador(a),The company values teamwork in every employer.
+Jobs & Interviews,skill,An ability to do something well,Habilidad / destreza,She received a promotion at her skill.
+Jobs & Interviews,position,A specific job role in a company,Puesto / posición,She received a promotion at her position.
+Jobs & Interviews,promotion,Special marketing deal to increase sales,Promoción,The company values teamwork in every promotion.
+Jobs & Interviews,deadline,The latest time something must be finished,Fecha límite,The company values teamwork in every deadline.
+Jobs & Interviews,meeting,A gathering to discuss work matters,Reunión,We discussed the meeting during the interview.
+Jobs & Interviews,hire,To give someone a job,Contratar,The company values teamwork in every hire.
+Jobs & Interviews,fire,To make someone leave their job,Despedir,The fire required strong communication skills.
+Jobs & Interviews,contract,A legal agreement for work terms,Contrato,We discussed the contract during the interview.
+Jobs & Interviews,full-time,Working the standard number of hours per week,Tiempo completo,We discussed the full-time during the interview.
+Jobs & Interviews,part-time,Working fewer hours than full-time,Medio tiempo,The part-time required strong communication skills.
+Jobs & Interviews,overtime,Time worked beyond normal hours,Horas extra,I applied for a new overtime last week.
+Jobs & Interviews,schedule,Planned working times,Horario,The company values teamwork in every schedule.
+Jobs & Interviews,office,Place where many people work at desks,Oficina,The company values teamwork in every office.
+Jobs & Interviews,remote work,Working from home or outside the office,Trabajo remoto,We discussed the remote work during the interview.
+Jobs & Interviews,team,A group of people working together,Equipo,The company values teamwork in every team.
+Jobs & Interviews,project,Planned work with a goal and deadline,Proyecto,The company values teamwork in every project.
+Jobs & Interviews,goal,A result you want to achieve,Meta / objetivo,We discussed the goal during the interview.
+Jobs & Interviews,target,"A specific objective, often measurable",Objetivo / cuota,She received a promotion at her target.
+Jobs & Interviews,training,Learning to improve job skills,Capacitación / entrenamiento,The company values teamwork in every training.
+Jobs & Interviews,internship,"Temporary job for learning, often for students",Pasantía / prácticas,The company values teamwork in every internship.
+Jobs & Interviews,probation,Trial period at the start of a job,Periodo de prueba,The company values teamwork in every probation.
+Jobs & Interviews,benefits,"Extra advantages from a job (insurance, vacation)",Prestaciones / beneficios,I applied for a new benefits last week.
+Jobs & Interviews,bonus,Extra pay given as a reward,Bono,She received a promotion at her bonus.
+Jobs & Interviews,raise,An increase in salary,Aumento de sueldo,We discussed the raise during the interview.
+Jobs & Interviews,vacation,Time off work for rest or travel,Vacaciones,The company values teamwork in every vacation.
+Jobs & Interviews,leave,To go away from a place,Salir / irse,We discussed the leave during the interview.
+Jobs & Interviews,sick leave,Time off work because you are ill,Baja por enfermedad,I applied for a new sick leave last week.
+Jobs & Interviews,colleague,A person you work with,Colega / compañero(a),The company values teamwork in every colleague.
+Jobs & Interviews,boss,The person in charge of you at work,Jefe(a),She received a promotion at her boss.
+Jobs & Interviews,client,A person or company you do business for,Cliente (empresa/persona),We discussed the client during the interview.
+Jobs & Interviews,customer service,Help for customers before/after buying,Atención al cliente,She received a promotion at her customer service.
+Jobs & Interviews,presentation,A talk where you explain information to others,Presentación,The company values teamwork in every presentation.
+Jobs & Interviews,report,A document that gives information or results,Informe / reporte,The report required strong communication skills.
+Jobs & Interviews,feedback,Comments to help improve performance,Retroalimentación / comentarios,I applied for a new feedback last week.
+Jobs & Interviews,performance,How well you do your job,Desempeño,She received a promotion at her performance.
+Jobs & Interviews,evaluation,A review of your work and results,Evaluación,I applied for a new evaluation last week.
+Jobs & Interviews,task,A piece of work to do,Tarea,She received a promotion at her task.
+Jobs & Interviews,responsibility,A duty you are expected to handle,Responsabilidad,We discussed the responsibility during the interview.
+Jobs & Interviews,achievement,Something you succeed in doing,Logro,The company values teamwork in every achievement.
+Jobs & Interviews,qualification,Skills/credentials needed for a job,Requisitos / calificaciones,She received a promotion at her qualification.
+Jobs & Interviews,reference,Person who can recommend you for a job,Referencia,She received a promotion at her reference.
+Jobs & Interviews,application,A formal request for a job,Solicitud,The company values teamwork in every application.
+Jobs & Interviews,recruiter,Person who finds and hires employees,Reclutador(a),We discussed the recruiter during the interview.
+Jobs & Interviews,department,"Section of a store (clothing, electronics, etc.)",Departamento / sección,I applied for a new department last week.
+Jobs & Interviews,branch,A local office of a larger company,Sucursal,She received a promotion at her branch.
+Jobs & Interviews,headquarters,Main office of a company,Sede / oficina central,The headquarters required strong communication skills.
+Jobs & Interviews,conference,A large formal meeting for discussion/training,Conferencia,We discussed the conference during the interview.
+Jobs & Interviews,networking,Meeting people to build professional relationships,Networking / crear contactos,We discussed the networking during the interview.
+Jobs & Interviews,workplace,The place where you work,Lugar de trabajo,She received a promotion at her workplace.
+Jobs & Interviews,productivity,How much work you get done efficiently,Productividad,The company values teamwork in every productivity.
+Jobs & Interviews,efficiency,Doing work well without wasting time/resources,Eficiencia,She received a promotion at her efficiency.
+Jobs & Interviews,leadership,Ability to guide and influence others,Liderazgo,We discussed the leadership during the interview.
+Jobs & Interviews,communication,Sharing information clearly with others,Comunicación,I applied for a new communication last week.
+Jobs & Interviews,negotiation,Discussion to reach an agreement,Negociación,We discussed the negotiation during the interview.
+Jobs & Interviews,deadline extension,Extra time added to a deadline,Extensión de fecha límite,She received a promotion at her deadline extension.
+Jobs & Interviews,promotion opportunity,A chance to move to a higher position,Oportunidad de ascenso,The company values teamwork in every promotion opportunity.
+Jobs & Interviews,shift,A scheduled period of work time,Turno,We discussed the shift during the interview.
+Jobs & Interviews,uniform,Special work clothes worn at a job,Uniforme,I applied for a new uniform last week.
+Jobs & Interviews,workload,Amount of work you have to do,Carga de trabajo,She received a promotion at her workload.
+Health,doctor,A medical professional who treats patients,Doctor(a) / médico(a),The doctor talked about my doctor.
+Health,nurse,Medical worker who cares for patients,Enfermero(a),The nurse improved after treatment.
+Health,hospital,A place where doctors treat sick or injured people,Hospital,I went to the hospital because of hospital.
+Health,clinic,A medical center for appointments and basic care,Clínica,She is recovering from clinic.
+Health,medicine,A drug used to treat illness or pain,Medicina / medicamento,The medicine improved after treatment.
+Health,pain,Unpleasant physical feeling in the body,Dolor,It is important to take care of your pain.
+Health,fever,"High body temperature, often from illness",Fiebre,The fever improved after treatment.
+Health,cough,"A sudden forced breath, often due to illness",Tos,The doctor talked about my cough.
+Health,cold,"A common mild viral illness (runny nose, sneezing)",Resfriado,It is important to take care of your cold.
+Health,flu,A stronger viral illness with fever and body aches,Gripe / influenza,She is recovering from flu.
+Health,headache,Pain in the head,Dolor de cabeza,She is recovering from headache.
+Health,stomachache,Pain in the stomach area,Dolor de estómago,It is important to take care of your stomachache.
+Health,injury,"Damage to the body (cut, sprain, fracture)",Lesión,She is recovering from injury.
+Health,emergency,A serious situation needing immediate help,Emergencia,She is recovering from emergency.
+Health,appointment,A scheduled time to see a doctor,Cita,The doctor talked about my appointment.
+Health,pharmacy,A place where you buy medicines,Farmacia,She is recovering from pharmacy.
+Health,allergy,"A reaction to something like food, dust, or medicine",Alergia,I went to the hospital because of allergy.
+Health,treatment,Medical care given to cure or relieve a problem,Tratamiento,She is recovering from treatment.
+Health,prescription,A doctor's order for medicine,Receta médica,It is important to take care of your prescription.
+Health,diagnosis,Identification of an illness or condition,Diagnóstico,It is important to take care of your diagnosis.
+Health,symptom,"A sign you feel that shows illness (pain, fever)",Síntoma,It is important to take care of your symptom.
+Health,virus,Harmful program that can damage a device,Virus informático,She is recovering from virus.
+Health,infection,Illness caused by germs entering the body,Infección,She is recovering from infection.
+Health,vaccine,Medicine that helps prevent a disease,Vacuna,It is important to take care of your vaccine.
+Health,health insurance,Coverage that helps pay medical costs,Seguro médico,It is important to take care of your health insurance.
+Health,exercise,To do physical activity for health,Hacer ejercicio,She is recovering from exercise.
+Health,diet,The food you usually eat; an eating plan,Dieta,The doctor talked about my diet.
+Health,nutrition,The process of getting food needed for health,Nutrición,It is important to take care of your nutrition.
+Health,vitamin,Substance your body needs in small amounts,Vitamina,The doctor talked about my vitamin.
+Health,protein,Nutrient that helps build muscles and tissues,Proteína,The doctor talked about my protein.
+Health,calorie,Unit that measures energy in food,Caloría,The doctor talked about my calorie.
+Health,blood pressure,Force of blood against artery walls,Presión arterial,The doctor talked about my blood pressure.
+Health,heart rate,Number of heart beats per minute,Frecuencia cardíaca,The heart rate improved after treatment.
+Health,surgery,Medical operation performed by doctors,Cirugía,The doctor talked about my surgery.
+Health,recovery,The process of getting better after illness/injury,Recuperación,The recovery improved after treatment.
+Health,therapy,"Treatment to improve health, especially physical or mental",Terapia,The therapy improved after treatment.
+Health,mental health,Emotional and psychological well-being,Salud mental,I went to the hospital because of mental health.
+Health,stress,Mental or emotional pressure,Estrés,I went to the hospital because of stress.
+Health,anxiety,Strong worry or nervousness,Ansiedad,The anxiety improved after treatment.
+Health,depression,A mental health condition with long-term sadness,Depresión,The doctor talked about my depression.
+Health,rest,To relax to regain energy,Descansar,The doctor talked about my rest.
+Health,sleep,To rest with your eyes closed at night,Dormir,I went to the hospital because of sleep.
+Health,hydration,Having enough water in your body,Hidratación,I went to the hospital because of hydration.
+Health,check-up,A routine medical examination,Chequeo / revisión médica,The check-up improved after treatment.
+Health,ambulance,Emergency vehicle that takes patients to hospital,Ambulancia,It is important to take care of your ambulance.
+Health,bandage,Material used to cover and protect a wound,Vendaje / venda,The doctor talked about my bandage.
+Health,cast,Hard covering to protect a broken bone,Yeso (para fractura),It is important to take care of your cast.
+Health,wheelchair,Chair with wheels for someone who cannot walk,Silla de ruedas,It is important to take care of your wheelchair.
+Health,crutch,Support stick used when a leg is injured,Muleta,The doctor talked about my crutch.
+Health,first aid,Immediate basic medical help before a doctor,Primeros auxilios,The first aid improved after treatment.
+Health,illness,A disease or period of being sick,Enfermedad,The illness improved after treatment.
+Health,disease,A medical condition that harms the body,Enfermedad,The disease improved after treatment.
+Health,chronic,Long-lasting or persistent (chronic pain),Crónico(a),I went to the hospital because of chronic.
+Health,acute,"Severe and sudden, often short-term",Agudo(a),I went to the hospital because of acute.
+Health,painkiller,Medicine that reduces pain,Analgésico,She is recovering from painkiller.
+Health,antibiotic,Medicine that fights bacterial infections,Antibiótico,The doctor talked about my antibiotic.
+Health,surgeon,Doctor who performs operations,Cirujano(a),The doctor talked about my surgeon.
+Health,dentist,Doctor for teeth and mouth,Dentista,It is important to take care of your dentist.
+Health,appointment reminder,Message that reminds you about your appointment,Recordatorio de cita,The appointment reminder improved after treatment.
+Health,medical record,Official history of a patient's health and treatment,Historial médico,The doctor talked about my medical record.
+Health,temperature,Measure of how hot or cold the body is,Temperatura,I went to the hospital because of temperature.
+Health,pulse,Heartbeat felt in the wrist/neck; beats per minute,Pulso,It is important to take care of your pulse.
+Health,breathing,The process of taking air in and out,Respiración,The breathing improved after treatment.
+Health,appointment card,Card showing details of a medical appointment,Tarjeta de cita,It is important to take care of your appointment card.
+Health,emergency room,Hospital department for urgent cases,Sala de emergencias,The doctor talked about my emergency room.
+Health,healthcare,Medical services for people,Atención médica / salud,I went to the hospital because of healthcare.
+Health,consultation,A meeting with a doctor for advice/exam,Consulta,She is recovering from consultation.
+Health,specialist,Doctor focused on one medical area,Especialista,The specialist improved after treatment.
+Health,laboratory,Place where medical tests are done,Laboratorio,The laboratory improved after treatment.
+Health,test result,The outcome of a medical test,Resultado de examen/prueba,It is important to take care of your test result.
+Shopping,store,A place where you buy things,Tienda,I decided to return the store.
+Shopping,shop,To buy things,Comprar,This shop is too expensive.
+Shopping,mall,A large building with many stores,Centro comercial,I decided to return the mall.
+Shopping,market,"Place/system where goods, services, or stocks are traded",Mercado,The market was on sale today.
+Shopping,price,The cost of something,Precio,The price was on sale today.
+Shopping,discount,A reduced price,Descuento,I decided to return the discount.
+Shopping,sale,A period when prices are lower,Oferta / rebaja,I found a good sale at the store.
+Shopping,offer,A special deal or proposal,Oferta,The offer was on sale today.
+Shopping,cash,Money in coins and paper bills,Efectivo,I decided to return the cash.
+Shopping,credit card,Card used to buy now and pay later,Tarjeta de crédito,I decided to return the credit card.
+Shopping,debit card,Card that pays directly from your account,Tarjeta de débito,She paid for the debit card at the checkout.
+Shopping,receipt,Proof of payment,Recibo / comprobante,She paid for the receipt at the checkout.
+Shopping,refund,Money returned after you return something,Reembolso,The refund was on sale today.
+Shopping,exchange,To give back an item and take another one,Cambio,The exchange was on sale today.
+Shopping,size,"Measurement for clothing/shoes (S, M, L)",Talla,I decided to return the size.
+Shopping,small,Not large in size,Pequeño(a),She paid for the small at the checkout.
+Shopping,medium,Middle size,Mediano(a),I decided to return the medium.
+Shopping,large,Big size,Grande,This large is too expensive.
+Shopping,try on,To put on clothes to see if they fit,Probarse,She paid for the try on at the checkout.
+Shopping,fitting room,Room where you try on clothes in a store,Probador / vestidor,I decided to return the fitting room.
+Shopping,cashier,Person who takes payment at a store,Cajero(a),This cashier is too expensive.
+Shopping,checkout,Place/process where you pay for items,Caja / pago,This checkout is too expensive.
+Shopping,basket,Small container you carry while shopping,Canasta,I found a good basket at the store.
+Shopping,cart,Wheeled basket used in supermarkets,Carrito,She paid for the cart at the checkout.
+Shopping,brand,The name of a product/company,Marca,I found a good brand at the store.
+Shopping,quality,How good or well-made something is,Calidad,The quality was on sale today.
+Shopping,cheap,Low price; not expensive,Barato(a),I found a good cheap at the store.
+Shopping,expensive,High price,Caro(a),I found a good expensive at the store.
+Shopping,warranty,Promise to repair/replace if something breaks,Garantía,The warranty was on sale today.
+Shopping,guarantee,A promise that something will work/be good,Garantía,This guarantee is too expensive.
+Shopping,online shopping,Buying products using the internet,Compras en línea,She paid for the online shopping at the checkout.
+Shopping,delivery,Bringing goods to your home,Entrega,I decided to return the delivery.
+Shopping,shipping,"Sending goods to a place, especially by mail",Envío,I decided to return the shipping.
+Shopping,tracking number,Code used to track a shipped package,Número de rastreo/seguimiento,The tracking number was on sale today.
+Shopping,customer service,Help for customers before/after buying,Atención al cliente,I found a good customer service at the store.
+Shopping,product,Something made to be sold,Producto,This product is too expensive.
+Shopping,item,A single object or product,Artículo,I found a good item at the store.
+Shopping,purchase,The act of buying; something bought,Compra,I decided to return the purchase.
+Shopping,return policy,Rules about returning items to a store,Política de devoluciones,She paid for the return policy at the checkout.
+Shopping,coupon,Ticket/code that gives a discount,Cupón,The coupon was on sale today.
+Shopping,barcode,Lines and numbers scanned to identify a product,Código de barras,The barcode was on sale today.
+Shopping,payment,Money you give to pay for something,Pago,I decided to return the payment.
+Shopping,total,Final amount to pay,Total,I decided to return the total.
+Shopping,tax,Money paid to the government,Impuesto,The tax was on sale today.
+Shopping,change,Money you get back when you pay too much,Cambio (vuelto),She paid for the change at the checkout.
+Shopping,out of stock,Not available because none are left,Agotado,She paid for the out of stock at the checkout.
+Shopping,available,Ready to be used or bought,Disponible,She paid for the available at the checkout.
+Shopping,limited edition,Product made in a small quantity for a short time,Edición limitada,The limited edition was on sale today.
+Shopping,gift,Something you give to someone,Regalo,She paid for the gift at the checkout.
+Shopping,gift card,Card with credit used to buy items in a store,Tarjeta de regalo,The gift card was on sale today.
+Shopping,bag,Container for carrying purchases,Bolsa,The bag was on sale today.
+Shopping,packaging,Material used to wrap/protect a product,Empaque / embalaje,She paid for the packaging at the checkout.
+Shopping,receipt copy,An extra copy of the receipt,Copia del recibo,This receipt copy is too expensive.
+Shopping,store credit,Money kept on your account to spend later in the store,Crédito en tienda,I decided to return the store credit.
+Shopping,promotion,Special marketing deal to increase sales,Promoción,I decided to return the promotion.
+Shopping,clearance,Sale to get rid of remaining stock,Liquidación,She paid for the clearance at the checkout.
+Shopping,second-hand,Used; not new,De segunda mano,This second-hand is too expensive.
+Shopping,department,"Section of a store (clothing, electronics, etc.)",Departamento / sección,She paid for the department at the checkout.
+Shopping,electronics,"Devices like phones, computers, TVs",Electrónica,The electronics was on sale today.
+Shopping,clothing,Clothes,Ropa,The clothing was on sale today.
+Daily Routines,wake up,To stop sleeping,Despertarse,We try to wake up in the evening.
+Daily Routines,get up,To rise from bed,Levantarse,She likes to get up before work.
+Daily Routines,brush teeth,To clean your teeth with a toothbrush,Cepillarse los dientes,brush teeth is part of my daily routine.
+Daily Routines,take a shower,To wash your body under running water,Ducharse / tomar una ducha,She likes to take a shower before work.
+Daily Routines,get dressed,To put on clothes,Vestirse,He forgot to get dressed today.
+Daily Routines,have breakfast,To eat breakfast,Desayunar,have breakfast is part of my daily routine.
+Daily Routines,go to work,To travel to your workplace,Ir al trabajo,I usually go to work every morning.
+Daily Routines,go to school,To travel to school,Ir a la escuela,We try to go to school in the evening.
+Daily Routines,have lunch,To eat lunch,Almorzar / comer,I usually have lunch every morning.
+Daily Routines,finish work,To complete your workday,Terminar el trabajo,I usually finish work every morning.
+Daily Routines,go home,To return to your home,Ir a casa,I usually go home every morning.
+Daily Routines,cook dinner,To prepare the evening meal,Cocinar la cena,He forgot to cook dinner today.
+Daily Routines,watch TV,To look at television programs,Ver televisión,He forgot to watch TV today.
+Daily Routines,study,To learn by reading/practicing,Estudiar,We try to study in the evening.
+Daily Routines,exercise,To do physical activity for health,Hacer ejercicio,She likes to exercise before work.
+Daily Routines,read,To look at and understand written words,Leer,I usually read every morning.
+Daily Routines,sleep,To rest with your eyes closed at night,Dormir,He forgot to sleep today.
+Daily Routines,clean,To make something not dirty,Limpiar,We try to clean in the evening.
+Daily Routines,wash dishes,"To clean plates, cups, and utensils",Lavar los platos,I usually wash dishes every morning.
+Daily Routines,do laundry,To wash clothes,Lavar ropa / hacer la colada,We try to do laundry in the evening.
+Daily Routines,make the bed,To arrange sheets and blankets neatly,Hacer la cama,We try to make the bed in the evening.
+Daily Routines,commute,To travel regularly to work/school,Desplazarse / viajar al trabajo,commute is part of my daily routine.
+Daily Routines,drive,To control a car or other vehicle,Conducir / manejar,She likes to drive before work.
+Daily Routines,walk,To move on foot,Caminar,walk is part of my daily routine.
+Daily Routines,relax,To rest and feel calm,Relajarse,I usually relax every morning.
+Daily Routines,call,To phone someone,Llamar,She likes to call before work.
+Daily Routines,text,To send a text message,Enviar mensaje / textear,text is part of my daily routine.
+Daily Routines,check email,To look at new emails,Revisar el correo,I usually check email every morning.
+Daily Routines,plan,To decide what you will do in the future,Planear,I usually plan every morning.
+Daily Routines,organize,To arrange things in order,Organizar,organize is part of my daily routine.
+Daily Routines,prepare,To get ready for something,Preparar,He forgot to prepare today.
+Daily Routines,start,To begin,Empezar / iniciar,She likes to start before work.
+Daily Routines,stop,To end or discontinue,Parar / detener,We try to stop in the evening.
+Daily Routines,arrive,To reach a place,Llegar,We try to arrive in the evening.
+Daily Routines,leave,To go away from a place,Salir / irse,She likes to leave before work.
+Daily Routines,eat,To consume food,Comer,We try to eat in the evening.
+Daily Routines,drink,To swallow a liquid,Beber,I usually drink every morning.
+Daily Routines,work,To do your job or tasks,Trabajar,I usually work every morning.
+Daily Routines,rest,To relax to regain energy,Descansar,He forgot to rest today.
+Daily Routines,practice,To repeat to improve a skill,Practicar,He forgot to practice today.
+Daily Routines,listen,To pay attention to sounds,Escuchar,She likes to listen before work.
+Daily Routines,write,To form letters/words on paper or screen,Escribir,write is part of my daily routine.
+Daily Routines,learn,To gain knowledge or skill,Aprender,We try to learn in the evening.
+Daily Routines,play,To do an activity for fun or sport,Jugar,He forgot to play today.
+Daily Routines,talk,To speak with someone,Hablar,I usually talk every morning.
+Daily Routines,meet,"To see someone, often by arrangement",Reunirse / conocer,He forgot to meet today.
+Daily Routines,shop,To buy things,Comprar,She likes to shop before work.
+Daily Routines,pay bills,To pay regular expenses like electricity or rent,Pagar facturas,pay bills is part of my daily routine.
+Daily Routines,take out trash,To remove garbage from the home,Sacar la basura,We try to take out trash in the evening.
+Daily Routines,feed the dog,To give food to your dog,Dar de comer al perro,She likes to feed the dog before work.
+Daily Routines,water plants,To give water to plants,Regar las plantas,He forgot to water plants today.
+Daily Routines,iron clothes,To remove wrinkles from clothes with an iron,Planchar la ropa,She likes to iron clothes before work.
+Daily Routines,set alarm,To program an alarm clock,Poner la alarma,She likes to set alarm before work.
+Daily Routines,brush hair,To comb hair with a brush,Cepillarse el cabello,We try to brush hair in the evening.
+Daily Routines,pack lunch,To prepare and put lunch in a bag/container,Preparar el almuerzo,I usually pack lunch every morning.
+Daily Routines,charge phone,To fill the phone battery with electricity,Cargar el teléfono,She likes to charge phone before work.
+Daily Routines,review schedule,To look at your timetable/agenda,Revisar el horario,We try to review schedule in the evening.
+Daily Routines,stretch,To extend muscles to loosen up,Estirarse,She likes to stretch before work.
+Daily Routines,meditate,To focus the mind calmly,Meditar,meditate is part of my daily routine.
+Daily Routines,journal,To write daily thoughts in a diary,Escribir un diario,He forgot to journal today.
+Technology,computer,"An electronic machine used for work, study, and the internet",Computadora / ordenador,She installed a new computer.
+Technology,laptop,A portable computer,Laptop / computadora portátil,My laptop is not working properly.
+Technology,tablet,A flat portable touchscreen computer,Tableta,My tablet is not working properly.
+Technology,smartphone,A mobile phone with internet and apps,Teléfono inteligente,The smartphone needs to be updated.
+Technology,internet,The global network connecting computers,Internet,She installed a new internet.
+Technology,website,A set of pages on the internet,Sitio web / página web,She installed a new website.
+Technology,app,A program on a phone or computer for a specific task,Aplicación,She installed a new app.
+Technology,software,Programs and apps that run on a device,Software / programas,My software is not working properly.
+Technology,hardware,The physical parts of a computer/device,Hardware / componentes,My hardware is not working properly.
+Technology,keyboard,Device with keys used to type,Teclado,The keyboard needs to be updated.
+Technology,mouse,Handheld device used to move the cursor,Ratón / mouse,My mouse is not working properly.
+Technology,screen,Flat surface where images and text appear,Pantalla,You can access it through the screen.
+Technology,monitor,A screen used with a computer,Monitor,My monitor is not working properly.
+Technology,printer,Machine that prints documents on paper,Impresora,I use my printer every day.
+Technology,router,Device that sends internet to your home/office,Router / enrutador,You can access it through the router.
+Technology,Wi-Fi,Wireless internet connection,Wi‑Fi,The Wi-Fi needs to be updated.
+Technology,password,Secret word/code used to access an account,Contraseña,You can access it through the password.
+Technology,username,Name used to identify you on a system,Nombre de usuario,My username is not working properly.
+Technology,login,To enter an account by using username/password,Iniciar sesión,The login needs to be updated.
+Technology,logout,To exit your account safely,Cerrar sesión,She installed a new logout.
+Technology,download,To copy a file from the internet to your device,Descargar,You can access it through the download.
+Technology,upload,To send a file from your device to the internet,Subir / cargar,My upload is not working properly.
+Technology,file,"A document, image, or item saved on a computer",Archivo,My file is not working properly.
+Technology,folder,A place on a computer used to organize files,Carpeta,You can access it through the folder.
+Technology,cloud,Online storage and services accessed via the internet,La nube,You can access it through the cloud.
+Technology,storage,Space to save data and files,Almacenamiento,My storage is not working properly.
+Technology,backup,A copy of data kept for safety,Copia de seguridad,The backup needs to be updated.
+Technology,update,A new version that improves software or fixes problems,Actualización,You can access it through the update.
+Technology,install,To put software on a device so it can be used,Instalar,You can access it through the install.
+Technology,delete,To remove a file or app,Eliminar / borrar,I use my delete every day.
+Technology,search,To look for information online or on a device,Buscar,The search needs to be updated.
+Technology,browser,"A program used to open websites (Chrome, Safari)",Navegador,The browser needs to be updated.
+Technology,email,Electronic mail sent over the internet,Correo electrónico,The email needs to be updated.
+Technology,attachment,A file sent with an email,Adjunto,I use my attachment every day.
+Technology,link,A clickable address that takes you to a webpage,Enlace / link,My link is not working properly.
+Technology,video call,A call where you can see and hear each other,Videollamada,You can access it through the video call.
+Technology,message,"Text sent to someone (SMS, chat)",Mensaje,The message needs to be updated.
+Technology,notification,An alert from an app or device,Notificación,She installed a new notification.
+Technology,settings,Options you can change to control a device/app,Configuración,I use my settings every day.
+Technology,account,A bank record that holds your money,Cuenta (bancaria),I use my account every day.
+Technology,battery,Power source in a phone/laptop,Batería,My battery is not working properly.
+Technology,charger,Device used to charge a battery,Cargador,The charger needs to be updated.
+Technology,camera,Device that takes photos/videos,Cámara,She installed a new camera.
+Technology,microphone,Device that records or sends sound,Micrófono,She installed a new microphone.
+Technology,speaker,Device that plays sound out loud,Altavoz / bocina,The speaker needs to be updated.
+Technology,headphones,Device worn on ears to listen privately,Audífonos / auriculares,You can access it through the headphones.
+Technology,USB,Standard connector for devices and storage,USB,You can access it through the USB.
+Technology,Bluetooth,Wireless technology to connect devices nearby,Bluetooth,She installed a new Bluetooth.
+Technology,security,Protection from threats and unauthorized access,Seguridad,She installed a new security.
+Technology,firewall,Software/hardware that blocks unwanted network access,Cortafuegos / firewall,The firewall needs to be updated.
+Technology,virus,Harmful program that can damage a device,Virus informático,You can access it through the virus.
+Technology,antivirus,Software that finds and removes computer viruses,Antivirus,The antivirus needs to be updated.
+Technology,data,Information stored or processed by a computer,Datos,The data needs to be updated.
+Technology,privacy,Control over who can see your personal information,Privacidad,I use my privacy every day.
+Technology,encryption,Method to protect data by coding it,Encriptación / cifrado,You can access it through the encryption.
+Technology,server,Computer that provides services/data to other computers,Servidor,I use my server every day.
+Technology,network,Connected computers/devices that share information,Red,I use my network every day.
+Technology,program,A set of instructions a computer follows,Programa,I use my program every day.
+Technology,code,Instructions written in a programming language,Código,The code needs to be updated.
+Technology,developer,Person who builds software or apps,Desarrollador(a),My developer is not working properly.
+Emotions,happy,Feeling pleasure or joy,Feliz,She looked happy after hearing the news.
+Emotions,sad,Feeling unhappy,Triste,They were extremely sad about the result.
+Emotions,angry,Feeling strong annoyance,Enojado(a) / molesto(a),She looked angry after hearing the news.
+Emotions,excited,Very happy and enthusiastic about something,Emocionado(a),I felt very excited yesterday.
+Emotions,nervous,Worried and a little afraid,Nervioso(a),I felt very nervous yesterday.
+Emotions,calm,Peaceful and not anxious,Calmado(a) / tranquilo(a),She looked calm after hearing the news.
+Emotions,relaxed,Free from tension or stress,Relajado(a),He becomes relaxed in stressful situations.
+Emotions,stressed,Feeling pressure or worry,Estresado(a),She looked stressed after hearing the news.
+Emotions,worried,Thinking something bad may happen,Preocupado(a),He becomes worried in stressful situations.
+Emotions,confused,Not understanding; unsure,Confundido(a),They were extremely confused about the result.
+Emotions,surprised,Feeling shock because something unexpected happened,Sorprendido(a),She looked surprised after hearing the news.
+Emotions,afraid,Feeling fear,Asustado(a) / con miedo,They were extremely afraid about the result.
+Emotions,scared,"Feeling fear, often suddenly",Asustado(a),It is normal to feel scared sometimes.
+Emotions,proud,Feeling pleased with your achievements,Orgulloso(a),They were extremely proud about the result.
+Emotions,ashamed,Feeling guilty or embarrassed about something wrong,Avergonzado(a),It is normal to feel ashamed sometimes.
+Emotions,embarrassed,Feeling uncomfortable because of attention or a mistake,Apenado(a) / avergonzado(a),I felt very embarrassed yesterday.
+Emotions,jealous,Upset because someone has something you want,Celoso(a),I felt very jealous yesterday.
+Emotions,grateful,Thankful for something,Agradecido(a),It is normal to feel grateful sometimes.
+Emotions,lonely,Feeling alone and sad about it,Solitario(a),They were extremely lonely about the result.
+Emotions,hopeful,Feeling that good things will happen,Esperanzado(a),He becomes hopeful in stressful situations.
+Emotions,disappointed,Sad because something was not as good as expected,Decepcionado(a),It is normal to feel disappointed sometimes.
+Emotions,frustrated,Annoyed because you can't achieve something,Frustrado(a),It is normal to feel frustrated sometimes.
+Emotions,bored,Not interested; having nothing exciting to do,Aburrido(a),He becomes bored in stressful situations.
+Emotions,tired,Needing rest or sleep,Cansado(a),He becomes tired in stressful situations.
+Emotions,energetic,Full of energy,Energético(a) / con energía,I felt very energetic yesterday.
+Emotions,motivated,Willing and eager to do something,Motivado(a),He becomes motivated in stressful situations.
+Emotions,inspired,Feeling creative or encouraged,Inspirado(a),She looked inspired after hearing the news.
+Emotions,anxious,Very worried or uneasy,Ansioso(a),He becomes anxious in stressful situations.
+Emotions,content,Quietly happy and satisfied,Contento(a) / satisfecho(a),She looked content after hearing the news.
+Emotions,satisfied,Pleased because something is good enough,Satisfecho(a),I felt very satisfied yesterday.
+Emotions,upset,"Unhappy, worried, or angry",Molesto(a) / alterado(a),They were extremely upset about the result.
+Emotions,amused,Finding something funny or entertaining,Divertido(a) / entretenido(a),I felt very amused yesterday.
+Emotions,curious,Wanting to know or learn something,Curioso(a),It is normal to feel curious sometimes.
+Emotions,optimistic,Expecting good results,Optimista,I felt very optimistic yesterday.
+Emotions,pessimistic,Expecting bad results,Pesimista,They were extremely pessimistic about the result.
+Emotions,friendly,Kind and pleasant to others,Amable,I felt very friendly yesterday.
+Emotions,kind,Caring and helpful,Bondadoso(a) / amable,It is normal to feel kind sometimes.
+Emotions,mean,Unkind; not nice,Malo(a) / cruel,He becomes mean in stressful situations.
+Emotions,patient,Able to wait calmly,Paciente,It is normal to feel patient sometimes.
+Emotions,impatient,Not able to wait calmly,Impaciente,It is normal to feel impatient sometimes.
+Emotions,confident,Sure of yourself; self-assured,Seguro(a) / confiado(a),It is normal to feel confident sometimes.
+Emotions,insecure,Not confident; uncertain about yourself,Inseguro(a),It is normal to feel insecure sometimes.
+Emotions,brave,Showing courage; not afraid,Valiente,She looked brave after hearing the news.
+Emotions,shy,Nervous or quiet around others,Tímido(a),It is normal to feel shy sometimes.
+Emotions,generous,Willing to give or share,Generoso(a),It is normal to feel generous sometimes.
+Emotions,selfish,Caring only about yourself,Egoísta,He becomes selfish in stressful situations.
+Emotions,honest,Truthful; not lying,Honesto(a),It is normal to feel honest sometimes.
+Emotions,loyal,Faithful and supportive,Leal,He becomes loyal in stressful situations.
+Emotions,supportive,Giving help and encouragement,Comprensivo(a) / que apoya,They were extremely supportive about the result.
+Emotions,caring,Kind and concerned about others,Cariñoso(a) / atento(a),She looked caring after hearing the news.
+Emotions,romantic,Showing love in a tender way,Romántico(a),They were extremely romantic about the result.
+Emotions,passionate,Having strong feelings or enthusiasm,Apasionado(a),They were extremely passionate about the result.
+Emotions,sensitive,Easily affected emotionally; can notice small things,Sensible / sensible,She looked sensitive after hearing the news.
+Emotions,strong,Physically or emotionally powerful,Fuerte,They were extremely strong about the result.
+Emotions,weak,Not strong; lacking strength,Débil,They were extremely weak about the result.
+Emotions,positive,Hopeful and optimistic; focused on good,Positivo(a),He becomes positive in stressful situations.
+Emotions,negative,Unhelpful or pessimistic; focused on bad,Negativo(a),I felt very negative yesterday.
+Emotions,emotional,Showing strong feelings,Emocional,They were extremely emotional about the result.
+Emotions,overwhelmed,Feeling like there is too much to handle,Abrumado(a),She looked overwhelmed after hearing the news.
+Emotions,peaceful,Calm and quiet,Pacífico(a) / tranquilo(a),It is normal to feel peaceful sometimes.
+Emotions,hurt,Feeling emotional pain,Herido(a) / lastimado(a),She looked hurt after hearing the news.
+Emotions,forgive,To stop blaming someone for a mistake,Perdonar,He becomes forgive in stressful situations.
+Emotions,love,Strong caring feeling for someone/something,Amor / amar,She looked love after hearing the news.
+Emotions,hate,Strong dislike,Odio / odiar,They were extremely hate about the result.
+Emotions,like,To enjoy or feel positive about something,Gustar,He becomes like in stressful situations.
+Emotions,dislike,To not like; to feel negative about,No gustar / desagradar,I felt very dislike yesterday.
+Emotions,trust,To believe someone is honest and reliable,Confiar,She looked trust after hearing the news.
+Emotions,respect,To admire someone and treat them well,Respetar / respeto,He becomes respect in stressful situations.
+Emotions,admire,To respect and look up to someone,Admirar,He becomes admire in stressful situations.
+Emotions,appreciate,To value something and be thankful,Apreciar / agradecer,He becomes appreciate in stressful situations.
+Money & Banking,money,Coins and bills used to buy things,Dinero,He saved money in his money.
+Money & Banking,cash,Money in coins and paper bills,Efectivo,We need to review the cash carefully.
+Money & Banking,bank,A place that keeps and manages people's money,Banco,The bank helps me manage my finances.
+Money & Banking,account,A bank record that holds your money,Cuenta (bancaria),The account helps me manage my finances.
+Money & Banking,credit,Money you can borrow to buy now and pay later,Crédito,He saved money in his credit.
+Money & Banking,debit,Money taken directly from your bank account,Débito,She paid the debit online.
+Money & Banking,loan,Money borrowed that must be paid back,Préstamo,She paid the loan online.
+Money & Banking,interest,Extra money paid for borrowing money,Interés,She paid the interest online.
+Money & Banking,savings,Money you keep for the future,Ahorros,He saved money in his savings.
+Money & Banking,investment,Putting money into something to earn more later,Inversión,The investment helps me manage my finances.
+Money & Banking,budget,A plan for how to spend and save money,Presupuesto,She paid the budget online.
+Money & Banking,expense,Money you spend,Gasto,He saved money in his expense.
+Money & Banking,income,"Money you receive, usually from work",Ingreso,We need to review the income carefully.
+Money & Banking,salary,Regular pay from a job,Salario,The salary helps me manage my finances.
+Money & Banking,payment,Money you give to pay for something,Pago,She paid the payment online.
+Money & Banking,transfer,Moving money from one account to another,Transferencia,We need to review the transfer carefully.
+Money & Banking,deposit,To put money into a bank account; also the amount,Depósito,We need to review the deposit carefully.
+Money & Banking,withdraw,To take money out of a bank account,Retirar,I deposited money into my withdraw.
+Money & Banking,ATM,Machine where you withdraw cash with a card,Cajero automático,The ATM helps me manage my finances.
+Money & Banking,receipt,Proof of payment,Recibo / comprobante,He saved money in his receipt.
+Money & Banking,balance,Amount of money in an account,Saldo,I deposited money into my balance.
+Money & Banking,credit card,Card used to buy now and pay later,Tarjeta de crédito,I deposited money into my credit card.
+Money & Banking,debit card,Card that pays directly from your account,Tarjeta de débito,The debit card helps me manage my finances.
+Money & Banking,mortgage,A long-term loan to buy a house,Hipoteca,He saved money in his mortgage.
+Money & Banking,rent,Money paid regularly to live in a home you don't own,Renta / alquiler,I deposited money into my rent.
+Money & Banking,bill,"A statement of money you owe (electricity, phone, etc.)",Factura / cuenta,She paid the bill online.
+Money & Banking,tax,Money paid to the government,Impuesto,I deposited money into my tax.
+Money & Banking,insurance,Protection plan you pay for in case of problems,Seguro,He saved money in his insurance.
+Money & Banking,currency,"A country's money (dollars, euros, pesos)",Moneda / divisa,The currency helps me manage my finances.
+Money & Banking,exchange rate,Value of one currency compared to another,Tipo de cambio,The exchange rate helps me manage my finances.
+Money & Banking,profit,Money gained after costs,Ganancia,She paid the profit online.
+Money & Banking,loss,Money lost; negative result,Pérdida,He saved money in his loss.
+Money & Banking,debt,Money you owe,Deuda,The debt helps me manage my finances.
+Money & Banking,financial,Related to money and finances,Financiero(a),The financial helps me manage my finances.
+Money & Banking,statement,A document showing account activity,Estado de cuenta,I deposited money into my statement.
+Money & Banking,invoice,A formal bill requesting payment,Factura,I deposited money into my invoice.
+Money & Banking,purchase,The act of buying; something bought,Compra,The purchase helps me manage my finances.
+Money & Banking,transaction,"An exchange of money (payment, deposit, transfer)",Transacción,He saved money in his transaction.
+Money & Banking,online banking,Banking services done on the internet,Banca en línea,We need to review the online banking carefully.
+Money & Banking,mobile banking,Banking done through a phone app,Banca móvil,The mobile banking helps me manage my finances.
+Money & Banking,overdraft,When you spend more than you have in your account,Sobregiro,She paid the overdraft online.
+Money & Banking,fee,A charge for a service,Comisión / tarifa,She paid the fee online.
+Money & Banking,commission,"Money paid for a service or sale, usually a percentage",Comisión,He saved money in his commission.
+Money & Banking,capital,Money used to start or invest in a business,Capital,I deposited money into my capital.
+Money & Banking,fund,Money set aside for a purpose; an investment pool,Fondo,The fund helps me manage my finances.
+Money & Banking,stock,A share of ownership in a company,Acción,He saved money in his stock.
+Money & Banking,bond,A loan to a government/company that pays interest,Bono,I deposited money into my bond.
+Money & Banking,economy,"System of money, jobs, and production in a country",Economía,He saved money in his economy.
+Money & Banking,market,"Place/system where goods, services, or stocks are traded",Mercado,He saved money in his market.
+Money & Banking,price,The cost of something,Precio,She paid the price online.
+Money & Banking,value,How much something is worth,Valor,We need to review the value carefully.
+Money & Banking,cost,The amount of money needed to buy or do something,Costo,The cost helps me manage my finances.
+Money & Banking,afford,To have enough money to pay for something,Poder pagar,We need to review the afford carefully.
+Money & Banking,earn,To receive money for work or services,Ganar,She paid the earn online.
+Money & Banking,spend,To use money to buy things,Gastar,He saved money in his spend.
+Money & Banking,save,To keep money for later,Ahorrar,I deposited money into my save.
+Money & Banking,invest,To put money into something to earn profit later,Invertir,We need to review the invest carefully.
+Money & Banking,borrow,To take and use money that you must return,Pedir prestado,He saved money in his borrow.
+Money & Banking,lend,To give money temporarily and expect it back,Prestar,She paid the lend online.
+Money & Banking,budget plan,A detailed plan for managing spending and saving,Plan de presupuesto,She paid the budget plan online.

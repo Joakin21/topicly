@@ -13,17 +13,13 @@ class TopicMini(BaseModel):
 class ExampleOut(BaseModel):
     id: int
     text_en: str
-    text_es: Optional[str] = None
     rank: int
 
 class EntryOut(BaseModel):
     id: int
-    kind: str
     headword: str
     meaning_en: str
     meaning_es: str
-    notes: Optional[str] = None
-    level: Optional[str] = None
 
 class EntryDetailOut(EntryOut):
     examples: List[ExampleOut]

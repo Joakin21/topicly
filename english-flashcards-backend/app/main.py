@@ -107,12 +107,9 @@ def search_entries(
         out.append(
             {
                 "id": int(entry.id),
-                "kind": entry.kind,
                 "headword": entry.headword,
                 "meaning_en": entry.meaning_en,
                 "meaning_es": entry.meaning_es,
-                "notes": entry.notes,
-                "level": entry.level,
                 "primary_topic": primary,
                 "topic_ids": [int(x) for x in topic_ids],
             }
@@ -136,14 +133,11 @@ def get_entry(entry_id: int, db: Session = Depends(get_db)):
 
     return {
         "id": int(entry.id),
-        "kind": entry.kind,
         "headword": entry.headword,
         "meaning_en": entry.meaning_en,
         "meaning_es": entry.meaning_es,
-        "notes": entry.notes,
-        "level": entry.level,
         "examples": [
-            {"id": int(e.id), "text_en": e.text_en, "text_es": e.text_es, "rank": e.rank}
+            {"id": int(e.id), "text_en": e.text_en, "rank": e.rank}
             for e in exs
         ],
     }

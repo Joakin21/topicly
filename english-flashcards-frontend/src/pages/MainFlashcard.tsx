@@ -5,18 +5,14 @@ import { TopicModal, type Topic } from "../components/TopicModal";
 
 type EntryOut = {
   id: number;
-  kind: "word" | "phrase";
   headword: string;
   meaning_en: string;
   meaning_es: string;
-  notes?: string | null;
-  level?: string | null;
 };
 
 type ExampleOut = {
   id: number;
   text_en: string;
-  text_es?: string | null;
   rank: number;
 };
 
@@ -431,7 +427,6 @@ export function MainFlashcard() {
                             {r.primary_topic.name}
                           </div>
                         )}
-                        <div style={styles.searchBadge}>{r.kind}</div>
                       </div>
                     </div>
                     {/* ✅ Removed Spanish translation here */}

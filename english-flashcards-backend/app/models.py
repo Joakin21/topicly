@@ -1,4 +1,4 @@
-from sqlalchemy import BigInteger, Boolean, CheckConstraint, Column, DateTime, ForeignKey, Integer, Text, func
+from sqlalchemy import BigInteger, Boolean, Column, DateTime, ForeignKey, Integer, Text, func
 from sqlalchemy.orm import relationship
 from .db import Base
 
@@ -6,12 +6,9 @@ class Entry(Base):
     __tablename__ = "entries"
 
     id = Column(BigInteger, primary_key=True)
-    kind = Column(Text, nullable=False)
     headword = Column(Text, nullable=False)
     meaning_en = Column(Text, nullable=False)
     meaning_es = Column(Text, nullable=False)
-    notes = Column(Text)
-    level = Column(Text)
     created_at = Column(DateTime(timezone=True), server_default=func.now(), nullable=False)
     updated_at = Column(DateTime(timezone=True), server_default=func.now(), nullable=False)
 
@@ -23,7 +20,6 @@ class Example(Base):
     id = Column(BigInteger, primary_key=True)
     entry_id = Column(BigInteger, ForeignKey("entries.id", ondelete="CASCADE"), nullable=False)
     text_en = Column(Text, nullable=False)
-    text_es = Column(Text)
     rank = Column(Integer, nullable=False, default=1)
     created_at = Column(DateTime(timezone=True), server_default=func.now(), nullable=False)
 
