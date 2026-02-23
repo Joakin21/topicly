@@ -39,3 +39,30 @@ class TopicEntry(Base):
     topic_id = Column(BigInteger, ForeignKey("topics.id", ondelete="CASCADE"), primary_key=True)
     entry_id = Column(BigInteger, ForeignKey("entries.id", ondelete="CASCADE"), primary_key=True)
     added_at = Column(DateTime(timezone=True), server_default=func.now(), nullable=False)
+
+
+class User(Base):
+    __tablename__ = "users"
+
+    id = Column(BigInteger, primary_key=True)
+    google_sub = Column(Text, nullable=False, unique=True, index=True)
+    email = Column(Text, nullable=False, unique=True, index=True)
+    name = Column(Text, nullable=True)
+    avatar_url = Column(Text, nullable=True)
+    created_at = Column(DateTime(timezone=True), server_default=func.now(), nullable=False)
+    last_login_at = Column(DateTime(timezone=True), nullable=True)
+
+    sessions = relationship("UserSession", back_populates="user", cascade="all, delete")
+
+
+class UserSession(Base):
+    __tablename__ = "user_sessions"
+
+    id = Column(BigInteger, primary_key=True)
+    user_id = Column(BigInteger, ForeignKey("users.id", ondelete="CASCADE"), nullable=False, index=True)
+    token_hash = Column(Text, nullable=False, unique=True, index=True)
+    created_at = Column(DateTime(timezone=True), server_default=func.now(), nullable=False)
+    expires_at = Column(DateTime(timezone=True), nullable=False)
+    revoked_at = Column(DateTime(timezone=True), nullable=True)
+
+    user = relationship("User", back_populates="sessions")

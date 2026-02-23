@@ -28,3 +28,14 @@ class EntryDetailOut(EntryOut):
 class SearchEntryOut(EntryOut):
     primary_topic: Optional[TopicMini] = None
     topic_ids: List[int] = []
+
+
+class GoogleLoginIn(BaseModel):
+    credential: str
+
+
+class AuthUserOut(BaseModel):
+    id: int
+    email: str
+    name: Optional[str] = None
+    avatar_url: Optional[str] = None

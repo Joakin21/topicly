@@ -73,9 +73,13 @@ POSTGRES_DB=english
 
 # Backend
 DATABASE_URL=postgresql://english:english@localhost:5432/english
+GOOGLE_CLIENT_ID=tu_client_id_de_google.apps.googleusercontent.com
+FRONTEND_ORIGINS=http://localhost:5173
+AUTH_COOKIE_SECURE=false
 
 # Frontend
-VITE_API_BASE_URL=http://localhost:8000
+VITE_API_URL=http://localhost:8000
+VITE_GOOGLE_CLIENT_ID=tu_client_id_de_google.apps.googleusercontent.com
 ```
 
 ## Estructura del repo (resumen)

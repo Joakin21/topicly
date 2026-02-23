@@ -42,7 +42,12 @@ type SearchEntry = EntryOut & {
 
 const YOUR_TOPICS_KEY = "your_topic_ids_v1";
 
-export function MainFlashcard() {
+type MainFlashcardProps = {
+  userName: string;
+  onLogout: () => void | Promise<void>;
+};
+
+export function MainFlashcard({ userName, onLogout }: MainFlashcardProps) {
   const [isFlipped, setIsFlipped] = useState(false);
   const [isTopicModalOpen, setIsTopicModalOpen] = useState(false);
 
@@ -438,7 +443,10 @@ export function MainFlashcard() {
         </div>
 
         <div style={styles.rightHeader}>
-          <div className="pill">Hi Carlos 👋</div>
+          <div className="pill">Hi {userName}</div>
+          <button className="btn" onClick={() => void onLogout()}>
+            Log out
+          </button>
 
           <div style={styles.topicGroup}>
             <span style={styles.topicBadge} title="Selected topic">
