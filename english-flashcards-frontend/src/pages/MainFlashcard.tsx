@@ -71,6 +71,14 @@ export function MainFlashcard({ userName, onLogout }: MainFlashcardProps) {
   const [searchOpen, setSearchOpen] = useState(false);
   const [searchLoading, setSearchLoading] = useState(false);
   const searchWrapRef = useRef<HTMLDivElement | null>(null);
+  const accountMenuRef = useRef<HTMLDivElement | null>(null);
+  const accountTriggerRef = useRef<HTMLButtonElement | null>(null);
+  const [isAccountMenuOpen, setIsAccountMenuOpen] = useState(false);
+  const [accountMenuPos, setAccountMenuPos] = useState({
+    top: 0,
+    left: 0,
+    width: 280,
+  });
 
   // ✅ NEW: request token to ignore stale /entries/{id} responses
   const entryDetailReqRef = useRef(0);
@@ -118,13 +126,68 @@ export function MainFlashcard({ userName, onLogout }: MainFlashcardProps) {
   // Close search dropdown on click outside
   useEffect(() => {
     function onDocMouseDown(e: MouseEvent) {
-      if (!searchWrapRef.current) return;
-      const el = searchWrapRef.current;
-      if (!el.contains(e.target as Node)) setSearchOpen(false);
+      const target = e.target as Node;
+      if (searchWrapRef.current && !searchWrapRef.current.contains(target)) {
+        setSearchOpen(false);
+      }
+      if (accountMenuRef.current && !accountMenuRef.current.contains(target)) {
+        setIsAccountMenuOpen(false);
+      }
     }
     document.addEventListener("mousedown", onDocMouseDown);
     return () => document.removeEventListener("mousedown", onDocMouseDown);
   }, []);
+
+  useEffect(() => {
+    function onDocKeyDown(e: KeyboardEvent) {
+      if (e.key !== "Escape") return;
+      setSearchOpen(false);
+      setIsAccountMenuOpen(false);
+    }
+    document.addEventListener("keydown", onDocKeyDown);
+    return () => document.removeEventListener("keydown", onDocKeyDown);
+  }, []);
+
+  useEffect(() => {
+    if (!isAccountMenuOpen) return;
+
+    function updateAccountMenuPosition() {
+      const triggerEl = accountTriggerRef.current;
+      if (!triggerEl) return;
+
+      const rect = triggerEl.getBoundingClientRect();
+      const viewportMargin = 12;
+      const menuGap = 10;
+      const maxMenuWidth = 300;
+      const estimatedMenuHeight = 156;
+
+      const width = Math.min(
+        maxMenuWidth,
+        Math.max(240, window.innerWidth - viewportMargin * 2)
+      );
+      const left = Math.min(
+        Math.max(viewportMargin, rect.right - width),
+        window.innerWidth - width - viewportMargin
+      );
+
+      const preferredTop = rect.bottom + menuGap;
+      const fallbackTop = rect.top - estimatedMenuHeight - menuGap;
+      const top =
+        preferredTop + estimatedMenuHeight <= window.innerHeight - viewportMargin
+          ? preferredTop
+          : Math.max(viewportMargin, fallbackTop);
+
+      setAccountMenuPos({ top, left, width });
+    }
+
+    updateAccountMenuPosition();
+    window.addEventListener("resize", updateAccountMenuPosition);
+    window.addEventListener("scroll", updateAccountMenuPosition, true);
+    return () => {
+      window.removeEventListener("resize", updateAccountMenuPosition);
+      window.removeEventListener("scroll", updateAccountMenuPosition, true);
+    };
+  }, [isAccountMenuOpen]);
 
   // 1) Load topics once
   useEffect(() => {
@@ -443,10 +506,48 @@ export function MainFlashcard({ userName, onLogout }: MainFlashcardProps) {
         </div>
 
         <div style={styles.rightHeader}>
-          <div className="pill">Hi {userName}</div>
-          <button className="btn" onClick={() => void onLogout()}>
-            Log out
-          </button>
+          <div ref={accountMenuRef} style={styles.accountMenuWrap}>
+            <button
+              ref={accountTriggerRef}
+              className="pill"
+              style={styles.accountTrigger}
+              onClick={() => setIsAccountMenuOpen((v) => !v)}
+              aria-haspopup="menu"
+              aria-expanded={isAccountMenuOpen}
+              title={userName}
+            >
+              <span style={styles.accountName}>Hi {userName}</span>
+              <span style={styles.accountChevron}>
+                {isAccountMenuOpen ? "^" : "v"}
+              </span>
+            </button>
+
+            {isAccountMenuOpen && (
+              <div
+                role="menu"
+                style={{
+                  ...styles.accountMenu,
+                  top: accountMenuPos.top,
+                  left: accountMenuPos.left,
+                  width: accountMenuPos.width,
+                }}
+              >
+                <div style={styles.accountMenuLabel}>Signed in as</div>
+                <div style={styles.accountMenuUser}>{userName}</div>
+                <button
+                  role="menuitem"
+                  className="btn"
+                  style={styles.logoutMenuBtn}
+                  onClick={() => {
+                    setIsAccountMenuOpen(false);
+                    void onLogout();
+                  }}
+                >
+                  Log out
+                </button>
+              </div>
+            )}
+          </div>
 
           <div style={styles.topicGroup}>
             <span style={styles.topicBadge} title="Selected topic">
@@ -582,6 +683,59 @@ const styles: Record<string, React.CSSProperties> = {
     alignItems: "center",
     flexWrap: "wrap",
     justifyContent: "flex-end",
+  },
+  accountMenuWrap: {
+    position: "relative",
+    zIndex: 2100,
+  },
+  accountTrigger: {
+    cursor: "pointer",
+    color: "rgba(255,255,255,.88)",
+    maxWidth: "min(52vw, 310px)",
+  },
+  accountName: {
+    minWidth: 0,
+    overflow: "hidden",
+    textOverflow: "ellipsis",
+    whiteSpace: "nowrap",
+  },
+  accountChevron: {
+    fontSize: 12,
+    opacity: 0.72,
+    lineHeight: 1,
+    flex: "0 0 auto",
+  },
+  accountMenu: {
+    position: "fixed",
+    borderRadius: 16,
+    border: "1px solid rgba(255,255,255,.16)",
+    background: "rgba(12,14,22,.96)",
+    backdropFilter: "blur(14px)",
+    boxShadow: "0 20px 50px rgba(0,0,0,.52)",
+    padding: 12,
+    display: "grid",
+    gap: 10,
+    zIndex: 4200,
+  },
+  accountMenuLabel: {
+    color: "rgba(255,255,255,.62)",
+    fontSize: 12,
+    letterSpacing: 0.7,
+    textTransform: "uppercase",
+  },
+  accountMenuUser: {
+    color: "rgba(255,255,255,.92)",
+    fontWeight: 700,
+    overflow: "hidden",
+    textOverflow: "ellipsis",
+    whiteSpace: "nowrap",
+  },
+  logoutMenuBtn: {
+    width: "100%",
+    borderRadius: 12,
+    border: "1px solid rgba(255, 92, 122, .46)",
+    background: "rgba(255, 92, 122, .16)",
+    color: "rgba(255,255,255,.95)",
   },
   topicGroup: {
     display: "flex",
